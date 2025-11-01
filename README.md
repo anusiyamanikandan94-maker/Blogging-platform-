@@ -1,95 +1,70 @@
-# Blog App using MERN Stack
+# Getting Started with Create React App
 
-Welcome to the Blog App repository! This application is built using the MERN (MongoDB, Express, React, Node.js) stack and comes with various functionalities to manage and share your blogs
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Functionalities
+In the project directory, you can run:
 
-- **Authentication:** Secure user authentication system to protect your blogs.
-- **Create Blog:** Easily create and publish your blogs with a user-friendly interface.
-- **Delete Blog:** Remove unwanted blogs with a simple delete option.
-- **Update Blog:** Edit and update your blogs as your content evolves.
-- **View Other User Blogs:** Explore and read blogs published by other users.
+### `npm start`
 
-## Screenshots
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![Screenshot 1](https://user-images.githubusercontent.com/67452985/172217325-4378400e-60a0-4364-aadb-89e900886a1c.png)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![Screenshot 2](https://user-images.githubusercontent.com/67452985/172217368-76264e6e-8373-484d-9cd0-3af5920754b1.png)
+### `npm test`
 
-![Screenshot 3](https://user-images.githubusercontent.com/67452985/172217649-238abde0-1b29-40fe-a46e-1b5bb03678c8.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Getting Started
+### `npm run build`
 
-To get started with this project, follow these steps:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Fork this repository
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-2. Clone this repository to your local machine:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-git clone https://github.com/your-username/Blog-App-using-MERN-stack.git
-```
+### `npm run eject`
 
-3. Install the required dependencies for both the backend and frontend:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```bash
-cd Blog-App-using-MERN-stack
-cd server && npm install
-cd ../client && npm install
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-4. Make a .env file in the server and copy the following line:
-```bash
-MONGO_URI = mongodb://127.0.0.1:27017/BlogApp
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-5. Configure the database connection in the backend. You can use MongoDB Atlas or a local MongoDB server.
+## Learn More
 
-6. Start the backend server:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-cd server && npm start
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-7. Start the frontend application:
+### Code Splitting
 
-```bash
-cd client && npm start
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-8. Access the application in your web browser at [http://localhost:3000](http://localhost:3000).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-## Using Docker
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-1. Docker should be set up and installed.
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-2. Run the following command from the root of your project:
+### Deployment
 
-```bash
-docker-compose up --build
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-3. Access the application in your web browser at [http://localhost:3000](http://localhost:3000).
+### `npm run build` fails to minify
 
-
-4. Stop the containers:
-
-```bash
-docker-compose down
-```
-
-## Contributing
-
-We welcome contributions from the community. If you'd like to contribute to this project, please feel free to open an issue or Make a PR.
-
-
----
-
-Feel free to explore the codebase and start creating and sharing your blogs with the world! If you have any questions or need assistance, please don't hesitate to reach out.
-
-Happy blogging!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
